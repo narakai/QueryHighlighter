@@ -1,8 +1,6 @@
 package com.cyrilmottier.android.queryhighlight;
 
 import android.os.Bundle;
-import android.support.v7.app.ActionBar;
-import android.support.v7.app.AppCompatActivity;
 import android.text.TextUtils;
 import android.text.TextWatcher;
 import android.view.View;
@@ -13,6 +11,10 @@ import android.widget.Filter;
 import android.widget.Filterable;
 import android.widget.ListView;
 import android.widget.TextView;
+
+import androidx.appcompat.app.ActionBar;
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.cyrilmottier.android.queryhighlight.text.Normalizer;
 import com.cyrilmottier.android.queryhighlight.text.TextWatcherAdapter;
 import com.cyrilmottier.android.queryhighlight.text.format.QueryHighlighter;
